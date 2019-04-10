@@ -1,0 +1,90 @@
+     /*补丁*/
+     
+     @media screen and (min-width:430px) {
+         .new .p1 {
+             font-size: 1.6rem;
+             line-height: 1.6rem;
+             padding-top: 0.9rem;
+         }
+         .new .p2 {
+             font-size: 0.8rem;
+             line-height: 1.2rem;
+             font-family: SimSun;
+             padding-top: 0.5rem;
+             padding-bottom: 0.3rem;
+         }
+         .new .p3 {
+             font-size: 1.5rem;
+             font-weight: bold;
+             line-height: 2rem;
+             margin-bottom: 0.2rem;
+         }
+         .new .a1,
+         .new .a2 {
+             display: block;
+             text-align: center;
+             height: 2rem;
+             line-height: 2rem;
+             border-radius: 0.2rem;
+         }
+         .new p a {
+             line-height: 1.2rem;
+             font-size: 1.3rem;
+         }
+     }
+     
+     @media screen and (min-width:760px) {
+         .header-sj_logo {
+             max-width: 235px;
+             max-height: 45px;
+         }
+         .new .p1 {
+             font-size: 1.5rem;
+             line-height: 2.2rem;
+             padding-top: 1rem;
+         }
+         .new .p2 {
+             font-size: 1.3rem;
+             line-height: 2rem;
+             font-family: SimSun;
+             padding-top: 0.2rem;
+             padding-bottom: 0.3rem;
+         }
+         .new .p3 {
+             font-size: 1.8rem;
+             font-weight: bold;
+             line-height: 2.5rem;
+             margin: 0.9rem 0;
+         }
+         .new .a1,
+         .new .a2 {
+             display: block;
+             text-align: center;
+             line-height: 2.8rem;
+             height: 2.8rem;
+             border-radius: 0.2rem;
+         }
+         .new p a {
+             line-height: 1.5rem;
+             font-size: 1.6rem;
+         }
+     }
+     
+     @media screen and (min-width:1000px) {
+         p a {
+             line-height: 30px;
+             font-size: 16px;
+             margin-left: 12px;
+         }
+     }
+     
+     @media screen and (max-width:1000px) {
+         .remen {
+             border-bottom: none;
+             padding-bottom: 0px;
+         }
+     }
+     
+     .swiper-pagination {
+         padding-bottom: 10px;
+     }

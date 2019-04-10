@@ -1,0 +1,963 @@
+                                /*header css*/
+                                /*header-sj css*/
+                                
+                                .header-sj {
+                                    line-height: 80px;
+                                    position: relative;
+                                }
+                                
+                                .header-sj img {
+                                    max-width: 253px;
+                                    max-height: 48px;
+                                    height: auto;
+                                    width: 100%;
+                                    vertical-align: middle;
+                                }
+                                
+                                .header-sj_logo {
+                                    max-width: 180px;
+                                    max-height: 29px;
+                                }
+                                
+                                .header-sj_f {
+                                    display: flex;
+                                    width: 100%;
+                                    flex-direction: row-reverse;
+                                    justify-content: flex-end;
+                                }
+                                
+                                .header-sj_f_left {
+                                    margin-right: 10%;
+                                }
+                                
+                                .ss.action,
+                                .menu.action {
+                                    display: inline-block;
+                                }
+                                
+                                .ss,
+                                .menu {
+                                    display: none;
+                                }
+                                
+                                .ss_close {
+                                    display: none;
+                                }
+                                
+                                .ss_close.action {
+                                    display: inline-block;
+                                }
+                                
+                                .ss_1 {
+                                    display: none;
+                                    width: 100%;
+                                    position: absolute;
+                                    top: 6rem;
+                                    height: 5.5rem;
+                                    background: #fff;
+                                    z-index: 9;
+                                    padding: 1rem 5%;
+                                    border-top: 1px solid #eaeaea;
+                                }
+                                
+                                .ss_1.action {
+                                    display: block;
+                                }
+                                
+                                .ss_1_box {
+                                    width: 100%;
+                                    border-radius: 0.5rem;
+                                    overflow: hidden;
+                                    border: 2px solid #eaeaea;
+                                }
+                                
+                                .ss_1_box_left {
+                                    width: 90%;
+                                    height: 3rem;
+                                    float: left;
+                                    font-family: inherit;
+                                    font-size: inherit;
+                                    outline: none;
+                                    border: none;
+                                    text-indent: 2em;
+                                    user-select: none;
+                                }
+                                
+                                .ss_1_box_right {
+                                    width: 10%;
+                                    height: 3rem;
+                                    float: left;
+                                    box-sizing: border-box;
+                                    background: url(../img/top/top-icon1.png) center center no-repeat;
+                                    background-size: 50%;
+                                    border: none
+                                }
+                                
+                                .menu_1 {
+                                    display: none;
+                                    width: 40%;
+                                    background: rgba(0, 0, 0, .8);
+                                    display: none;
+                                    position: absolute;
+                                    top: 6.7rem;
+                                    right: 0;
+                                    z-index: 9;
+                                    padding: 1.4rem 0;
+                                    min-height: 420px;
+                                }
+                                
+                                .menu_1.action {
+                                    display: block;
+                                }
+                                
+                                .menu_1 a {
+                                    width: 100%;
+                                    font-size: 1.4rem;
+                                    line-height: 4rem;
+                                    color: #fff;
+                                    display: block;
+                                    text-align: center;
+                                }
+                                
+                                .menu_1 a:hover {
+                                    background-color: rgba(0, 0, 0, .3);
+                                    font-weight: bold;
+                                }
+                                
+                                .header-sj_f_right {}
+                                
+                                .header-pc {
+                                    height: 84px;
+                                    border-bottom: 1px solid #dcdcdc;
+                                }
+                                
+                                .header-pc_f {
+                                    display: flex;
+                                    flex-direction: row-reverse;
+                                }
+                                
+                                .header-pc p {
+                                    font-size: 20px;
+                                    color: #d96100;
+                                    font-style: italic;
+                                    padding-left: 36px;
+                                    background: url(../img/top/tel.png) left center no-repeat;
+                                    padding-right: 20px;
+                                    margin-top: 24px;
+                                    line-height: 30px;
+                                }
+                                
+                                .header-pc img {
+                                    margin-top: 24px;
+                                }
+                                
+                                .header-pc_dl {
+                                    margin-top: 23px;
+                                }
+                                
+                                .header-pc_dl a {
+                                    width: 58px;
+                                    height: 28px;
+                                    font-family: SimSun;
+                                    border: 1px solid #dbdbdb;
+                                    border-radius: 5px;
+                                    display: block;
+                                    color: #333333;
+                                    text-align: center;
+                                    line-height: 28px;
+                                    float: left;
+                                    font-size: 12px;
+                                    margin-left: 5px;
+                                }
+                                
+                                .nav {
+                                    border-bottom: 1px solid #dcdcdc;
+                                    height: 58px;
+                                }
+                                
+                                .nav ul {
+                                    overflow: hidden;
+                                }
+                                
+                                .nav ul li {
+                                    float: left;
+                                    height: 58px;
+                                    line-height: 58px;
+                                    font-size: 16px;
+                                }
+                                
+                                .nav ul li .a2 {
+                                    color: #666;
+                                    width: 100px;
+                                    text-align: right;
+                                    padding-right: 14px;
+                                    background: url(../img/top/nav-li-img2.png) right center no-repeat;
+                                    display: block;
+                                }
+                                
+                                .nav ul li .a1 {
+                                    color: #d96100;
+                                }
+                                
+                                .nav_right {
+                                    display: flex;
+                                    flex-direction: row-reverse;
+                                }
+                                
+                                .nav_right .a1 {
+                                    padding-right: 15px;
+                                    height: 15px;
+                                    font-size: 14px;
+                                    line-height: 15px;
+                                    padding-left: 25px;
+                                    background: url(../img/top/Orders.png) left center no-repeat;
+                                    border-right: 1px solid #ddd;
+                                    color: #747474;
+                                    margin-top: 21px;
+                                    float: left;
+                                    display: block;
+                                }
+                                
+                                .nav_right .a4 {
+                                    padding-right: 15px;
+                                    padding-left: 15px;
+                                    height: 15px;
+                                    text-align: center;
+                                    font-size: 14px;
+                                    line-height: 15px;
+                                    color: #747474;
+                                    border-right: 1px solid #ddd;
+                                    margin-top: 21px;
+                                    float: left;
+                                    display: block;
+                                }
+                                
+                                .nav_right .a3 {
+                                    width: 70px;
+                                    height: 28px;
+                                    background: url(../img/top/shop-car.png) 21px center no-repeat;
+                                    float: left;
+                                    margin-top: 14px;
+                                    display: block;
+                                }
+                                
+                                .nav_right span {
+                                    width: 15px;
+                                    height: 15px;
+                                    background: #d96100;
+                                    font-size: 12px;
+                                    font-family: Arial;
+                                    color: #fff;
+                                    text-align: center;
+                                    line-height: 15px;
+                                    display: block;
+                                    border-radius: 50%;
+                                    margin-left: 42px;
+                                }
+                                
+                                .nav .a2:hover {
+                                    color: #d96100;
+                                }
+                                /*banner-sj css*/
+                                
+                                .banner-sj {}
+                                
+                                .banner-sj img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                                /*banner-pc css*/
+                                /* .banner2,
+                                .banner3 {
+                                    display: none;
+                                } */
+                                
+                                .lunbo_right_left {
+                                    user-select: none;
+                                }
+                                
+                                .lunbo_right_right {
+                                    user-select: none;
+                                }
+                                
+                                .hidden-sj {
+                                    overflow: hidden;
+                                    position: relative;
+                                }
+                                
+                                .sj_visit {
+                                    position: relative;
+                                }
+                                
+                                .rm_bz {
+                                    width: 50px;
+                                    height: 25px;
+                                    background: #d55d0b;
+                                    color: #fff;
+                                    text-align: center;
+                                    line-height: 25px;
+                                    font-size: 12px;
+                                    border-radius: 5px;
+                                    position: absolute;
+                                    top: 13px;
+                                    left: 15px;
+                                    z-index: 2;
+                                }
+                                
+                                .banner-pc {
+                                    /* padding-bottom: 36px; */
+                                    padding-top: 36px;
+                                    background: #f7f7f7;
+                                }
+                                
+                                .hidden-banner {
+                                    overflow: hidden;
+                                }
+                                
+                                .banner-pc img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                                /*main css*/
+                                
+                                .main {}
+                                
+                                .main_1 {
+                                    padding-bottom: 15px;
+                                    padding-top: 30px;
+                                }
+                                
+                                .main img {
+                                    width: 100%;
+                                    height: auto;
+                                    margin-bottom: 7px;
+                                }
+                                
+                                .main_2 {
+                                    padding-top: 37px;
+                                    padding-bottom: 30px;
+                                    background: #f7f7f7;
+                                }
+                                
+                                .promise {
+                                    color: white;
+                                    text-align: center;
+                                }
+                                
+                                .promise h2 {
+                                    padding-bottom: 10px;
+                                    font-size: 10px;
+                                    font-weight: normal;
+                                }
+                                
+                                .promise img {
+                                    display: inline-block;
+                                    width: 60%;
+                                    max-width: 90px;
+                                    border: none;
+                                    margin-top: -25px;
+                                }
+                                
+                                .promise.item1 {
+                                    background-color: #dd7025;
+                                }
+                                
+                                .promise.item2 {
+                                    background-color: #e0af75;
+                                }
+                                
+                                .promise.item3 {
+                                    background-color: #899db6;
+                                }
+                                
+                                .promise.item4 {
+                                    background-color: #8ccabf;
+                                }
+                                /* new css*/
+                                
+                                .new {}
+                                
+                                .new-cont {
+                                    padding-bottom: 30px;
+                                    padding-top: 30px;
+                                }
+                                
+                                .m {
+                                    padding-left: 7px;
+                                    font-size: 2.1rem;
+                                    line-height: 2.2rem;
+                                    color: #000;
+                                    border-left: 3px solid #d55d0b;
+                                    margin-bottom: 12px;
+                                }
+                                
+                                .new-pc_lunbo {
+                                    overflow: hidden;
+                                }
+                                
+                                .lunbo_wenzi {
+                                    float: left;
+                                    padding-left: 7px;
+                                    font-size: 2.1rem;
+                                    line-height: 2.2rem;
+                                    color: #000;
+                                    border-left: 3px solid #d55d0b;
+                                    margin-bottom: 12px;
+                                }
+                                
+                                .lunbo_right {
+                                    float: right;
+                                    font-size: 18px;
+                                    text-align: center;
+                                    line-height: 28px;
+                                }
+                                
+                                .lunbo_right_left {
+                                    width: 28px;
+                                    height: 28px;
+                                    border: 1px solid #dbdbdb;
+                                    float: left;
+                                    cursor: pointer;
+                                }
+                                
+                                .lunbo_right_right {
+                                    width: 28px;
+                                    height: 28px;
+                                    border: 1px solid #dbdbdb;
+                                    float: left;
+                                    cursor: pointer;
+                                    margin-left: 14px;
+                                }
+                                
+                                .new img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                                
+                                p {
+                                    color: #000;
+                                    line-height: 2.0rem;
+                                    font-size: 0.8rem;
+                                }
+                                
+                                span {
+                                    display: inline-block;
+                                    margin-bottom: 20px;
+                                    color: #ed460b;
+                                    line-height: 1.4rem;
+                                    font-size: 1.4rem;
+                                }
+                                
+                                .new_zh {
+                                    border: 1px solid #f2f2f2;
+                                    background-color: #f2f2f2;
+                                }
+                                
+                                .new_zh img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                                
+                                .new_zh_zi {
+                                    padding-left: 6px;
+                                    padding-right: 6px;
+                                    padding-top: 0.8rem;
+                                }
+                                
+                                .new .p1 {
+                                    font-size: 0.8rem;
+                                    color: #000;
+                                    line-height: 1.3rem;
+                                }
+                                
+                                .new .p2 {
+                                    font-size: 0.6rem;
+                                    color: #999;
+                                    line-height: 1.1rem;
+                                    font-family: SimSun;
+                                    padding-top: 0.2rem;
+                                }
+                                
+                                .new .p3 {
+                                    font-size: 1rem;
+                                    color: #ee3532;
+                                    font-weight: bold;
+                                    line-height: 1rem;
+                                }
+                                
+                                .new .a1 {
+                                    width: 46%;
+                                    height: 1.7rem;
+                                    background: #ee3532;
+                                    color: #fff;
+                                    display: block;
+                                    float: left;
+                                    text-align: center;
+                                    line-height: 1.7rem;
+                                    border-radius: 0.2rem;
+                                }
+                                
+                                .new .a2 {
+                                    width: 46%;
+                                    height: 1.7rem;
+                                    line-height: 1.6rem;
+                                    border: 1px solid #ccc;
+                                    color: #333;
+                                    background: #fff;
+                                    display: block;
+                                    float: left;
+                                    text-align: center;
+                                    border-radius: 0.2rem;
+                                    margin-left: 5%;
+                                    box-sizing: border-box;
+                                }
+                                /*new-pc css*/
+                                
+                                .new-pc {}
+                                
+                                .new-pc img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                                
+                                .new-pc_right {
+                                    border: 1px solid #f2f2f2;
+                                    background-color: #f2f2f2;
+                                }
+                                
+                                .new-pc_right .p1 {
+                                    padding-top: 40px;
+                                    font-size: 18px;
+                                    color: #000;
+                                    line-height: 26px;
+                                    padding-left: 12px;
+                                    padding-right: 12px;
+                                }
+                                
+                                .new-pc_right .p2 {
+                                    font-size: 16px;
+                                    color: #999;
+                                    line-height: 24px;
+                                    font-family: SimSun;
+                                    margin-top: 12px;
+                                    padding-left: 12px;
+                                    padding-right: 12px;
+                                }
+                                
+                                .new-pc_right .p3 {
+                                    font-size: 24px;
+                                    color: #ee3532;
+                                    font-weight: bold;
+                                    height: 70px;
+                                    line-height: 70px;
+                                    padding-left: 12px;
+                                    padding-right: 12px;
+                                    user-select: none;
+                                }
+                                
+                                .new-pc_right .a1 {
+                                    width: 110px;
+                                    height: 35px;
+                                    background: #ee3532;
+                                    color: #fff;
+                                    display: block;
+                                    float: left;
+                                    text-align: center;
+                                    line-height: 35px;
+                                    border-radius: 5px;
+                                }
+                                
+                                .new-pc_right .a2 {
+                                    width: 108px;
+                                    height: 33px;
+                                    border: 1px solid #ccc;
+                                    color: #333;
+                                    display: block;
+                                    float: left;
+                                    text-align: center;
+                                    line-height: 33px;
+                                    border-radius: 5px;
+                                    margin-left: 12px;
+                                }
+                                
+                                .remen {
+                                    padding-top: 47px;
+                                    padding-bottom: 20px;
+                                    border-bottom: 1px solid #eeeeee;
+                                }
+                                
+                                .remen img,
+                                .remen_1 img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                                
+                                .remen_1 {
+                                    padding-top: 22px;
+                                }
+                                
+                                .remen img,
+                                .remen_1 img {
+                                    margin-bottom: 15px;
+                                }
+                                /*gongneng-sj css*/
+                                
+                                .gongneng {
+                                    padding-top: 10px;
+                                    padding-bottom: 27px;
+                                }
+                                
+                                .gn_1,
+                                .gn_2,
+                                .gn_3 {
+                                    width: 100%;
+                                    height: 3.4rem;
+                                    line-height: 3.8rem;
+                                    padding-left: 3%;
+                                    font-size: 1.4rem;
+                                    color: #fff;
+                                }
+                                
+                                .gn_1-cont {
+                                    display: none;
+                                }
+                                
+                                .f1 {
+                                    cursor: pointer;
+                                    user-select: none;
+                                }
+                                
+                                .gn_1.action {
+                                    background: #899db6 url(../img/foot/tb5.png) 98% center no-repeat;
+                                    background-size: 3%;
+                                }
+                                
+                                .gn_2.action {
+                                    background: #e0af75 url(../img/foot/tb5.png) 98% center no-repeat;
+                                    background-size: 3%;
+                                }
+                                
+                                .gn_3.action {
+                                    background: #8ccabf url(../img/foot/tb5.png) 98% center no-repeat;
+                                    background-size: 3%;
+                                }
+                                
+                                .gn_1 {
+                                    background: #899db6 url(../img/foot/tb6.png) 98% center no-repeat;
+                                    background-size: 3%;
+                                }
+                                
+                                .gn_2 {
+                                    background: #e0af75 url(../img/foot/tb6.png) 98% center no-repeat;
+                                    background-size: 3%;
+                                }
+                                
+                                .gn_3 {
+                                    background: #8ccabf url(../img/foot/tb6.png) 98% center no-repeat;
+                                    background-size: 3%;
+                                }
+                                
+                                .gn_1-cont {
+                                    width: 100%;
+                                    background: #f3f3f3;
+                                    padding: 0.6rem 0;
+                                }
+                                
+                                .gn_1-cont li {
+                                    line-height: 2.2rem;
+                                    font-size: 1.2rem;
+                                    padding-left: 5%;
+                                }
+                                
+                                .gn_1-cont li:hover {
+                                    background-color: #e0e0e0;
+                                }
+                                /*gongneng-pc css*/
+                                
+                                .gongneng-pc {
+                                    width: 100%;
+                                    background: #f7f7f7;
+                                    padding-top: 25px;
+                                    padding-bottom: 33px;
+                                    display: table;
+                                }
+                                
+                                .gongneng-pc p {
+                                    display: inline-block;
+                                    font-size: 20px;
+                                    color: #000;
+                                    height: 52px;
+                                    line-height: 52px;
+                                }
+                                
+                                .gn-pc_1,
+                                .gn-pc_2,
+                                .gn-pc_3 {
+                                    width: 20px;
+                                    height: 20px;
+                                    text-align: center;
+                                    line-height: 20px;
+                                    font-size: 12px;
+                                    color: #fff;
+                                    border-radius: 100%;
+                                    margin-right: 60%;
+                                    margin-top: 18px;
+                                    float: right;
+                                }
+                                
+                                .gn-pc_1 {
+                                    background-color: #899db6;
+                                }
+                                
+                                .gn-pc_2 {
+                                    background-color: #e0af75;
+                                }
+                                
+                                .gn-pc_3 {
+                                    background-color: #8ccabf;
+                                }
+                                
+                                .gongneng-pc ul {
+                                    width: 100%;
+                                    height: 185px;
+                                    padding-top: 15px;
+                                    display: block;
+                                }
+                                
+                                .gn-pc_1-cont {
+                                    background-color: #899db6;
+                                }
+                                
+                                .gn-pc_2-cont {
+                                    background-color: #e0af75;
+                                }
+                                
+                                .gn-pc_3-cont {
+                                    background-color: #8ccabf;
+                                }
+                                
+                                .gongneng-pc ul li {
+                                    font-size: 14px;
+                                    line-height: 32px;
+                                    padding-left: 22px;
+                                }
+                                
+                                .gongneng-pc ul li a {
+                                    color: #fff;
+                                }
+                                
+                                .gongneng-pc ul li a:hover {
+                                    text-decoration: underline;
+                                }
+                                /*foot-sj css*/
+                                
+                                .foot {
+                                    width: 100%;
+                                    padding: 0 5%;
+                                    background: #616576;
+                                    margin-top: 2.2rem;
+                                }
+                                
+                                .foot p {
+                                    width: 100%;
+                                    font-size: 1rem;
+                                    color: #fff;
+                                    line-height: 3.4rem;
+                                    height: 3.4rem;
+                                    border-bottom: 1px solid #fff;
+                                    box-sizing: border-box;
+                                    padding-left: 3%;
+                                    background: url(../img/foot/tb7.png) 98% center no-repeat;
+                                    background-size: 3%;
+                                    cursor: pointer;
+                                    user-select: none;
+                                }
+                                
+                                .foot ul {
+                                    display: none;
+                                    width: 100%;
+                                    padding: 0.5rem 0;
+                                }
+                                
+                                .foot ul li {
+                                    line-height: 2.2rem;
+                                    font-size: 0.9rem;
+                                    padding-left: 5%;
+                                }
+                                
+                                .foot ul li a {
+                                    color: #fff;
+                                    display: block;
+                                }
+                                
+                                .foot ul li:hover {
+                                    background-color: rgba(0, 0, 0, .1);
+                                }
+                                
+                                .foot_bq {
+                                    width: 100%;
+                                    font-size: 1.4rem;
+                                    color: #fff;
+                                    line-height: 1.6rem;
+                                    text-align: center;
+                                    padding-top: 0.6rem;
+                                    padding-bottom: 1.2rem;
+                                    margin-top: 1.2rem;
+                                }
+                                /*foot-pc css*/
+                                
+                                .foot-pc {
+                                    padding-top: 25px;
+                                }
+                                
+                                .foot-pc1 {
+                                    padding-bottom: 30px;
+                                    border-bottom: 1px solid #ebebeb;
+                                }
+                                
+                                .foot-pc .a1 {
+                                    height: 53px;
+                                    line-height: 53px;
+                                    font-size: 16px;
+                                    color: #000;
+                                }
+                                
+                                .foot-pc a {
+                                    color: #666;
+                                    line-height: 26px;
+                                }
+                                
+                                .foot-pc_f {
+                                    display: flex;
+                                    text-align: right;
+                                    flex-direction: row-reverse;
+                                    border-left: 1px solid #ebebeb;
+                                    padding-bottom: 40px;
+                                }
+                                
+                                .foot-pc_f .p1 {
+                                    font-size: 14px;
+                                    color: #848484;
+                                    line-height: 26px;
+                                }
+                                
+                                .foot-pc_f .p2 {
+                                    font-size: 26px;
+                                    color: #333;
+                                    line-height: 31px;
+                                }
+                                
+                                .foot-pc_f .p3 {
+                                    width: 81px;
+                                    height: 25px;
+                                    background: #10337e;
+                                    font-size: 12px;
+                                    color: #fff;
+                                    text-align: center;
+                                    line-height: 25px;
+                                    border-radius: 7px;
+                                    margin-top: 10px;
+                                    float: right;
+                                }
+                                
+                                .foot-pc_f img {
+                                    padding-top: 6px;
+                                    padding-left: 10px;
+                                }
+                                
+                                .foot-pc2 {
+                                    padding-bottom: 25px;
+                                }
+                                
+                                .foot-pc2 ul {
+                                    overflow: hidden;
+                                }
+                                
+                                .foot-pc2 ul li {
+                                    float: left;
+                                    font-size: 12px;
+                                    height: 12px;
+                                    line-height: 12px;
+                                    margin-top: 25px;
+                                    margin-bottom: 11px;
+                                }
+                                
+                                .foot-pc2 ul li a {
+                                    padding: 0 15px;
+                                    color: #999;
+                                    border-right: 1px solid #999;
+                                }
+                                
+                                .foot-pc2 ul li .a1 {
+                                    padding-left: 0;
+                                }
+                                
+                                .foot-pc2 ul li .a8 {
+                                    border-right: none;
+                                }
+                                
+                                .foot-pc2 .p1 {
+                                    font-size: 12px;
+                                    padding-left: 15px;
+                                    font-family: SimSun;
+                                    color: #999;
+                                }
+                                
+                                .promise img {
+                                    padding-top: 5px;
+                                    animation: rotal 2s linear infinite;
+                                }
+                                
+                                @keyframes rotal {
+                                    from {
+                                        transform: rotate(0deg);
+                                    }
+                                    to {
+                                        transform: rotate(360deg);
+                                    }
+                                }
+                                
+                                .foot-pc2_p .p1 {
+                                    font-size: 12px;
+                                    color: #999;
+                                    line-height: 12px;
+                                    padding-top: 25px;
+                                    width: 100px;
+                                    float: left;
+                                    padding-left: 45px;
+                                    background: url(../img/foot/foot-img2.jpg) 18px 28px no-repeat;
+                                }
+                                
+                                .foot-pc2_p .p2 {
+                                    font-size: 12px;
+                                    color: #999;
+                                    line-height: 12px;
+                                    padding-top: 25px;
+                                    width: 100px;
+                                    float: left;
+                                    padding-left: 45px;
+                                    background: url(../img/foot/foot-img3.jpg) 18px 28px no-repeat;
+                                }
+                                
+                                .foot-pc2_p .p3 {
+                                    font-size: 12px;
+                                    color: #999;
+                                    line-height: 12px;
+                                    padding-top: 25px;
+                                    width: 100px;
+                                    float: left;
+                                    padding-left: 45px;
+                                    background: url(../img/foot/foot-img4.jpg) 18px 28px no-repeat;
+                                }
+                                
+                                .foot-pc1 ul li a:hover {
+                                    text-decoration: underline;
+                                }
+                                
+                                .foot-pc1 ul li .a1:hover {
+                                    text-decoration: none;
+                                }
+                                
+                                .foot-pc2 ul li a:hover {
+                                    color: #d96100;
+                                }
